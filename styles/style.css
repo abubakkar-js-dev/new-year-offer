@@ -453,6 +453,10 @@ nav a{
 #footer p>i{
     margin-right: 8px;
 }
+#footer .hr{
+    border: 1px solid rgba(255, 255, 255, 0.15);
+    border-bottom: none;
+}
 
 /* ==========================================
                      THE END
