@@ -155,3 +155,40 @@ nav a{
     background-color: #eeda8a;
     transition: 0.7ms;
 }
+
+/* join now sec start */
+#join-now{
+    border-radius: 16px;
+
+}
+.joinnow-sec-wrap{
+    background: linear-gradient(180.00deg, rgba(255, 0, 0, 0.1),rgba(255, 0, 0, 0) 100%);
+    border-radius: 10px;
+    height: 482px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+
+
+}
+.joinnow-sec-wrap p{
+    font-family: Inter;
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 26px;
+    text-align: center;
+    text-transform: capitalize;
+}
+.joinnow-sec-wrap p>span{
+    color: #FF0000;
+}
+.joinnow-sec-wrap .join-now-sec-btn{
+    color: white;
+    background-color: #FF0000;
+    padding: 12px 26px;
+    font-weight: bold;
+    border-radius: 5px;
+    border: none;
+}
