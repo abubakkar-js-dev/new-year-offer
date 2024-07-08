@@ -404,3 +404,47 @@ nav a{
     background: rgb(255, 0, 0);
     padding: 20px;
 }
+
+/* footer section start */
+#footer{
+    max-width: 1600px;
+    /* height: 309px; */
+    margin: 0 auto;
+    color: white;
+    background-color: #1E1E1E;
+}
+.footer-container{
+    margin-bottom: 0;
+    padding: 60px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 60px;
+}
+.contact{
+    display: flex;
+    justify-content: space-between;
+}
+.social{
+    margin: 0 auto;
+}
+.social a{
+    text-decoration: none;
+}
+.social a>img{
+    max-width: 62.5px;
+    width: 40px;
+    margin-left: 12px;
+}
+.copyright{
+    display: flex;
+    justify-content: space-between;
+}
+
+#footer p{
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 25px;;
+}
