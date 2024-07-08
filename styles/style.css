@@ -302,3 +302,105 @@ nav a{
 .holiday-mix-color .discound-sale>img{
     width: 200px;
 }
+
+/* gift section start */
+.gift-content .gift-subtitle{
+    color: rgb(255, 0, 0);
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 25px;
+}
+
+.gift-content .gift-title{
+    color: rgb(7, 2, 17);
+    font-family: Merriweather,Inter;
+    font-size: 28px;
+    font-weight: 900;
+    line-height: 35px;
+    text-transform: capitalize;
+    margin: 10px 0;
+}
+.gift-content .gift-sec-description{
+    color: rgba(7, 2, 17, 0.6);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-bottom: 20px;
+}
+.product-container{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 14px;
+}
+.product-container .item>img{
+    max-width: 424px;
+    width: 100%;
+}
+.product-container .item:hover{
+    background-image: linear-gradient(0deg,rgba(0,0,0,0.06));
+}
+
+/* subscrib section start */
+
+.subscribe-bg{
+    border-radius: 16px;
+    background: rgba(255, 0, 0, 0.05);
+}
+.subscribe-wrap{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 18px;
+    width: 520px;
+    margin: 0 auto;
+    padding: 45px 0;
+
+}
+.subscribe-wrap img{
+    width: 70px;
+    height: 75px;
+}
+.subscribe-wrap h2{
+    color: rgb(7, 2, 17);
+    font-family: Merriweather;
+    font-size: 28px;
+    font-weight: 900;
+    line-height: 35px;
+    text-transform: capitalize;
+}
+.subscribe-wrap p{
+    color: rgba(7, 2, 17, 0.6);
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    }
+.subscribe-wrap .subs-btn-wraper input{
+    /* Rectangle 12 */
+    width: 350px;
+    border-radius: 50px;
+    background: rgb(255, 255, 255);
+    border: none;
+    padding: 20px;
+}
+.subs-btn-wraper{
+    display: inline-block;
+    position: relative;
+
+}
+.subs-btn-wraper button{
+    position: absolute;
+    top: 0;
+    right: 0;
+    border: none;
+    width: 110px;
+    border-radius: 0px 50px 50px 0px;
+    color: white;
+    background: rgb(255, 0, 0);
+    padding: 20px;
+}
