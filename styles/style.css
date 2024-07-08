@@ -192,3 +192,113 @@ nav a{
     border-radius: 5px;
     border: none;
 }
+
+/* new offer section start */
+.new-offer-wrap{
+    display: flex;
+    justify-content: space-between;
+    /* align-items: center; */
+}
+.new-offer-wrap .left-col>h4{
+    color: #FF0000;
+    font-size: 16px;
+}
+.new-offer-wrap .left-col>h2{
+    color: black;
+    font-size: 26px;
+    margin: 15px 0;
+}
+.new-offer-wrap .left-col>p{
+    color: rgba(7, 2, 17, 0.6);
+    font-family: Inter;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+.new-offer-wrap .middle-col >.middle-col-img>img{
+    width: 185px;
+    border: 5px solid #FF0000;
+    border-radius: 100%;
+    margin: 30px;
+    padding: 9px;
+}
+.new-offer-wrap .right-col{
+    position: relative;
+}
+.new-offer-wrap .right-col>h2{
+    color: rgb(255, 0, 0);
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 58px;
+}
+.new-offer-wrap .right-col>p{
+    color: rgba(7, 2, 17, 0.6);
+    font-family: Inter;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+.new-offer-wrap .right-col>img{
+    /* Group */
+    position: absolute;
+    width: 100px;
+    right: 85px;
+}
+.holiday-wrap .holiday-content{
+    text-align: center;
+}
+.holiday-wrap .holiday-content > h2{
+    font-size: 38px;
+    font-family: Merriweather;
+    font-weight: 900;
+    line-height: 47px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin: 17px 0;
+}
+.holiday-wrap .holiday-content>p{
+    color: rgba(7, 2, 17, 0.6);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 32px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+.holiday-wrap .holiday-content > h2>span{
+    color: #FF0000;
+}
+.holiday-desc{
+    color: rgba(7, 2, 17, 0.6);
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 32px;
+    margin: 25px 0;
+}
+
+.holiday-img-wrap{
+    display: flex;
+    justify-content: space-between;
+}
+.holiday-img-wrap img{
+    width: 50%;
+}
+.holiday-mix-color{
+    position: relative;
+}
+.holiday-mix-color .solid-color-bottom img{
+    width: 100%;
+    height: 120px;
+}
+.holiday-mix-color .discound-sale{
+    position: absolute;
+    bottom: 35%;
+    right: 42%;
+}
+.holiday-mix-color .discound-sale>img{
+    width: 200px;
+}
