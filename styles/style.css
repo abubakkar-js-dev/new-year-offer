@@ -33,6 +33,9 @@
 
 /* header section */
 nav{
+    max-width: 1600px;
+    /* height: 309px; */
+    margin: 0 auto;
     background-color: #1E1E1E;
     padding: 3px;
     position: fixed;
@@ -410,7 +413,6 @@ nav a{
     max-width: 1600px;
     /* height: 309px; */
     margin: 0 auto;
-    color: white;
     background-color: #1E1E1E;
 }
 .footer-container{
